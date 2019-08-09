@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="15059" started-at="2019-07-12T10:45:14Z" finished-at="2019-07-12T10:45:29Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="15059" started-at="2019-07-12T10:45:14Z" finished-at="2019-07-12T10:45:29Z">
+      <class name="com.primus.AppTest">
+        <test-method status="PASS" signature="kickStart()[pri:0, instance:null(com.primus.AppTest)]" name="kickStart" duration-ms="12" started-at="2019-07-12T16:15:28Z" finished-at="2019-07-12T16:15:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- kickStart -->
+      </class> <!-- com.primus.AppTest -->
+      <class name="com.primus.PrimusExtentReport">
+        <test-method status="PASS" signature="setExtent()[pri:0, instance:com.primus.PrimusExtentReport@6093dd95]" name="setExtent" is-config="true" duration-ms="175" started-at="2019-07-12T16:15:14Z" finished-at="2019-07-12T16:15:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setExtent -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.primus.PrimusExtentReport@6093dd95]" name="setup" is-config="true" duration-ms="14393" started-at="2019-07-12T16:15:14Z" finished-at="2019-07-12T16:15:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="titleVerification()[pri:0, instance:com.primus.PrimusExtentReport@6093dd95]" name="titleVerification" duration-ms="25" started-at="2019-07-12T16:15:28Z" finished-at="2019-07-12T16:15:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- titleVerification -->
+        <test-method status="PASS" signature="teardown(org.testng.ITestResult)[pri:0, instance:com.primus.PrimusExtentReport@6093dd95]" name="teardown" is-config="true" duration-ms="2" started-at="2019-07-12T16:15:28Z" finished-at="2019-07-12T16:15:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=titleVerification status=SUCCESS method=PrimusExtentReport.titleVerification()[pri:0, instance:com.primus.PrimusExtentReport@6093dd95] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="endreport()[pri:0, instance:com.primus.PrimusExtentReport@6093dd95]" name="endreport" is-config="true" duration-ms="434" started-at="2019-07-12T16:15:28Z" finished-at="2019-07-12T16:15:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endreport -->
+      </class> <!-- com.primus.PrimusExtentReport -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
